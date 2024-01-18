@@ -15,7 +15,7 @@ We attempt to tackle the beginning of a cybersecurity problem that users face wh
 
 ## Usage
 
-![Home Screen](https://github.com/SpyOT/SpyOT-App/tree/main/images/Home_Screen.png?raw=true)
+![Home Screen](https://github.com/SpyOT/SpyOT-App/blob/main/images/Home_Screen.png?raw=true)
 
 The application has 3 main use cases:
 
@@ -28,7 +28,7 @@ through an account linked to the SpyOT website. This feature is not fully implem
 
 ### Scanning
 
-![Output of scan button](https://github.com/SpyOT/SpyOT-App/tree/main/images/Scan_Output.png?raw=true)
+![Output of scan button](https://github.com/SpyOT/SpyOT-App/blob/main/images/Scan_Output.png?raw=true)
 
 Perform a light-weight scan on your
 systems with the help of the Nmap library. Once complete,
@@ -37,7 +37,7 @@ be displayed on the right-hand display.
 
 ### Vulnerability Identification
 
-![Output of collect button](https://github.com/SpyOT/SpyOT-App/tree/main/images/Collect_Output.png?raw=true)
+![Output of collect button](https://github.com/SpyOT/SpyOT-App/blob/main/images/Collect_Output.png?raw=true)
 
 Perform a deep scan of your systems
 that allows it to collect information on each devices ports
@@ -49,7 +49,7 @@ selecting the 'Remove from blacklist' button.
 
 ### Report Generation
 
-![Output of view report button](https://github.com/SpyOT/SpyOT-App/tree/main/images/Report_Output.png?raw=true)
+![Output of view report button](https://github.com/SpyOT/SpyOT-App/blob/main/images/Report_Output.png?raw=true)
 
 Generate a vulnerability report for your network after performing a
 deep scan. This report will contain information on each device including:
