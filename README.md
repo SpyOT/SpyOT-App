@@ -13,6 +13,43 @@ vulnerabilities in IoT devices for small, local networks.
 The SpyOT project is a network security tool that identifies vulnerabilities in a network of local IoT devices.
 We attempt to tackle the beginning of a cybersecurity problem that users face when having a vast network of IoT devices.
 
+## Requirements
+
+- Windows 11
+- [Nmap](https://nmap.org/download.html)
+
+In order to use the SpyOT application, you will need to install the open-source network scanner, Nmap. Nmap can be
+downloaded from https://nmap.org/download.html. Additionally, you will have to add the Nmap directory to your system's
+PATH environment variable. Note that the nmap installer will automatically
+add Nmap to the user PATH variable, but not the system PATH variable. Instructions on how to do this are available at
+https://nmap.org/book/inst-windows.html for windows.
+
+## Installation
+
+### Executable
+
+Once you have fulfilled the requirements above, you can download the SpyOT application from the releases page.
+This will download a zip file containing the application. Extract the zip file to a location of your choice and run
+main.exe to start the application.
+
+### Source Code
+
+If you would like to run the application from source code you will again need the above requirements filled, along with
+Python 3.8 or higher. We recommend using a virtual environment to run the application and include a requirements.txt
+file for your convenience. To install the required packages, run the following command from the root directory of the
+project:
+
+```
+pip install -r requirements.txt
+```
+
+Once the packages are installed, you should be able to start the application by running the main.py file in the projects
+root directory with the following python command.
+    
+```
+python main.py
+```
+
 ## Usage
 
 ![Home Screen](https://github.com/SpyOT/SpyOT-App/blob/main/images/Home_Screen.png?raw=true)
@@ -56,42 +93,6 @@ deep scan. This report will contain information on each device including:
 IP address, MAC address, and open ports. This report will also contain
 information on each port including: protocol, availability, and service.
 
-## Requirements
-
-- Windows 11
-- [Nmap](https://nmap.org/download.html)
-
-In order to use the SpyOT application, you will need to install the open-source network scanner, Nmap. Nmap can be
-downloaded from https://nmap.org/download.html. Additionally, you will have to add the Nmap directory to your system's
-PATH environment variable. Note that the installer will automatically
-add Nmap to the user PATH variable, but not the system PATH variable. Instructions on how to do this are available at
-https://nmap.org/book/inst-windows.html for windows.
-
-## Installation
-
-### Executable
-
-Once you have fulfilled the requirements above, you can download the SpyOT application from the releases page.
-This will download a zip file containing the application. Extract the zip file to a location of your choice and run
-main.exe to start the application.
-
-### Source Code
-
-If you would like to run the application from source code you will again need the above requirements filled, along with
-Python 3.8 or higher. We recommend using a virtual environment to run the application and include a requirements.txt
-file for your convenience. To install the required packages, run the following command from the root directory of the
-project:
-
-```
-pip install -r requirements.txt
-```
-
-Once the packages are installed, you should be able to start the application by running the main.py file in the projects
-root directory with the following python command.
-    
-```
-python main.py
-```
 ## Original Project Proposal
 
 For this senior project, we attempt to tackle the beginning of a cybersecurity problem that user networks face when
